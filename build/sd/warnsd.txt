@@ -1,0 +1,63 @@
+missing module named 'multiprocessing.popen_fork' - imported by /Users/jicowan/PycharmProjects/Secrets/venv/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py
+missing module named 'multiprocessing.popen_spawn_win32' - imported by /Users/jicowan/PycharmProjects/Secrets/venv/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py
+missing module named 'multiprocessing.spawn' - imported by /Users/jicowan/PycharmProjects/Secrets/venv/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_multiprocessing.py
+missing module named _dummy_threading - imported by dummy_threading
+missing module named _winreg - imported by winreg, platform, mimetypes, urllib
+missing module named OverrideFrom23 - imported by Carbon.Res
+missing module named SOCKS - imported by ftplib
+missing module named rourl2path - imported by urllib
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions
+missing module named _xmlplus - imported by xml
+missing module named _xmlrpclib - imported by xmlrpclib
+missing module named nt - imported by os, ntpath, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named os2 - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named _emx_link - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named ce - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named riscos - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named riscospath - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named riscosenviron - imported by os, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named msvcrt - imported by subprocess, getpass, /Users/jicowan/PycharmProjects/Secrets/sd.py, multiprocessing.forking
+missing module named _subprocess - imported by subprocess, /Users/jicowan/PycharmProjects/Secrets/sd.py, multiprocessing.forking, multiprocessing.reduction
+missing module named org - imported by pickle, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named _sha - imported by hashlib, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named _md5 - imported by hashlib, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named _sha256 - imported by hashlib, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named _sha512 - imported by hashlib, /Users/jicowan/PycharmProjects/Secrets/sd.py
+missing module named 'org.python' - imported by copy, /Users/jicowan/PycharmProjects/Secrets/sd.py, xml.sax
+missing module named optik - imported by texttable
+missing module named cjkwrap - imported by texttable
+missing module named six.moves.range - imported by six.moves, dateutil.rrule
+runtime module named six.moves - imported by dateutil.tz.win, dateutil.rrule
+missing module named six.moves.winreg - imported by six.moves, dateutil.tz.win
+missing module named dateutil.tz.tzfile - imported by dateutil.tz, dateutil.zoneinfo
+missing module named backports - imported by botocore.vendored.requests.packages.urllib3.packages.ssl_match_hostname
+missing module named 'dbm.ndbm' - imported by future.moves.dbm.ndbm
+missing module named 'dbm.gnu' - imported by future.moves.dbm.gnu
+missing module named 'dbm.dumb' - imported by future.moves.dbm.dumb
+missing module named _bsddb - imported by bsddb, bsddb.db
+missing module named bsddb3 - imported by bsddb
+missing module named _pybsddb - imported by bsddb, bsddb.db
+missing module named vms_lib - imported by platform
+missing module named java - imported by platform
+missing module named winreg.HKEY_LOCAL_MACHINE - imported by winreg, platform
+missing module named winreg.CloseKey - imported by winreg, platform
+missing module named winreg.QueryValueEx - imported by winreg, platform
+missing module named winreg.OpenKeyEx - imported by winreg, platform
+missing module named win32pipe - imported by platform
+missing module named _datetime - imported by future.backports.datetime
+missing module named reprlib.recursive_repr - imported by reprlib, future.backports.misc
+missing module named _thread.get_ident - imported by _thread, future.backports.misc
+missing module named netbios - imported by uuid
+missing module named win32wnet - imported by uuid
+missing module named ElementC14N - imported by xml.etree.ElementTree
+missing module named 'urllib.request' - imported by botocore.vendored.requests.compat
+missing module named 'urllib.parse' - imported by botocore.vendored.requests.packages.urllib3.request, botocore.vendored.requests.packages.urllib3.poolmanager, botocore.vendored.requests.compat, botocore.compat
+missing module named simplejson - imported by botocore.vendored.requests.compat, botocore.compat
+missing module named certifi - imported by botocore.vendored.requests.certs
+missing module named 'pyasn1.type' - imported by botocore.vendored.requests.packages.urllib3.contrib.pyopenssl
+missing module named pyasn1 - imported by botocore.vendored.requests.packages.urllib3.contrib.pyopenssl
+missing module named OpenSSL - imported by botocore.vendored.requests.packages.urllib3.contrib.pyopenssl
+missing module named 'ndg.httpsclient' - imported by botocore.vendored.requests.packages.urllib3.contrib.pyopenssl
+missing module named ndg - imported by botocore.vendored.requests.packages.urllib3.contrib.pyopenssl
+missing module named ordereddict - imported by botocore.compat
+missing module named 'botocore.vendored.six.moves' - imported by botocore.compat
