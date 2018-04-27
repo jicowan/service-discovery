@@ -1,5 +1,5 @@
 # service-discovery
-A CLI to create service discovery namespaces and register services under those namespaces. You can download the executable from the [/dist](https://github.com/jicowan/service-discovery/tree/master/dist)
+A CLI to create service discovery namespaces and register services under those namespaces. You can download the executable from the [/dist](https://github.com/jicowan/service-discovery/tree/master/dist).  This CLI only works in us-east-1 at the moment. 
 
 ## Usage
 ### Create
