@@ -16,7 +16,33 @@ Sample output:
 |                     |                      | /srv-sjjhzf7xwwhvhkdw           |
 +---------------------+----------------------+---------------------------------+
 ```
-To register an ECS service with the service discovery service, add the service ARN to the service's service definition. 
+To register an ECS service with the service discovery service, add the service ARN to the service's service definition. For example: 
+```json
+{
+    cluster='fargate',
+    serviceName=service_name + '-svc',
+    taskDefinition=task_name,
+    serviceRegistries=[
+        {
+            'registryArn': service_arn
+        }
+    ],
+    desiredCount=1,
+    platformVersion='1.1.0',
+    launchType='FARGATE',
+    networkConfiguration={
+        'awsvpcConfiguration': {
+            'subnets': [
+                'subnet-f8bc52a2',
+            ],
+            'securityGroups': [
+                'sg-592a062c',
+            ],
+            'assignPublicIp': 'ENABLED'
+        }
+    }
+}
+```
 ### Delete
 Deletes a service or namespace
 ```
