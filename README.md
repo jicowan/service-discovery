@@ -17,7 +17,7 @@ Sample output:
 +---------------------+----------------------+---------------------------------+
 ```
 To register an ECS service with the service discovery service, add the service ARN to the service's service definition. For example: 
-```json
+```
 {
     cluster='fargate',
     serviceName=service_name + '-svc',
