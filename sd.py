@@ -174,6 +174,10 @@ def create_ecs_service(service_name, service_arn, task_name):
 
 def create_namespace(namespace_name, vpc_id):
     '''Create DNS namespace for service'''
+    namespaces = sd_client.list_namespaces()['Namespaces']
+    for name in namespaces:
+        if namespace_name == name['Name']:
+            return name['Id']
     operation_id = sd_client.create_private_dns_namespace(Name=namespace_name, Vpc=vpc_id)['OperationId']
     namespace_id = sd_client.get_operation(OperationId=operation_id)['Operation']['Targets']['NAMESPACE']
     while True:
