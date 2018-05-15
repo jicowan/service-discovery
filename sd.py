@@ -175,6 +175,7 @@ def create_ecs_service(service_name, service_arn, task_name):
 def create_namespace(namespace_name, vpc_id):
     '''Create DNS namespace for service'''
     namespaces = sd_client.list_namespaces()['Namespaces']
+    #filter(lambda x: x['Name'] == namespace_name, namespaces):
     for name in namespaces:
         if namespace_name == name['Name']:
             return name['Id']
